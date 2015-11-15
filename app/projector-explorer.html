@@ -1,0 +1,70 @@
+<dom-module id="projector-explorer">
+
+    <template>
+
+        <style>
+            paper-menu {
+                padding: 0;
+                float: left;
+                color: #3f51b5;
+            }
+            
+            paper-item {
+                display: block;
+                padding: 10px;
+                cursor: pointer;
+            }
+            
+            iron-pages {
+                padding: 10px;
+                float: left;
+            }
+        </style>
+
+        <paper-menu selected="{{selected}}">
+            <paper-item>
+                <iron-icon icon="icons:search"></iron-icon>
+            </paper-item>
+            <paper-item>
+                <iron-icon icon="icons:folder"></iron-icon>
+            </paper-item>
+            <paper-item>
+                <iron-icon icon="icons:delete"></iron-icon>
+            </paper-item>
+        </paper-menu>
+        <iron-pages selected="{{selected}}">
+            <div>
+                <paper-card heading="Pesquisa">
+                    <div class="card-content">
+                        <paper-input label=""></paper-input>
+                    </div>
+                </paper-card>
+
+            </div>
+            <div>
+                <paper-card heading="Navegar">
+                    <div class="card-content">
+
+                    </div>
+                    <div class="card-actions">
+                        <paper-button>
+
+                        </paper-button>
+                    </div>
+                </paper-card>
+            </div>
+            <div> Lixeira </div>
+        </iron-pages>
+
+    </template>
+
+    <script>
+        Polymer({
+            is: "projector-explorer",
+            ready: function () {
+                this.selected = 0;
+            }
+        });
+    </script>
+
+</dom-module>
