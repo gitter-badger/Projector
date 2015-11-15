@@ -1,4 +1,4 @@
-# AOSG - Projector
+# Projector
 
 Criado para organizar e otimizar os trabalhos de operação audio visual durante cultos e reuniões.
 
