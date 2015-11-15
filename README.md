@@ -11,3 +11,9 @@ Para ajudar esse projeto tem o objetivo de organizar de forma a diminuir essa tr
 som e imagens em um unico aplicativo.
 
 Dessa forma uma determinada programação dos momentos do culto pode ser orquestrada a partir desse app.
+
+## Tecnologias
+
+Este projeto está sob a base de ser Cross Platform Desktop usando Electron (http://electron.atom.io/)
+
+Framework Web usado é o Polymer (https://www.polymer-project.org)
