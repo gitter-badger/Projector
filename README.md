@@ -1,5 +1,7 @@
 # Projector
 
+[![Join the chat at https://gitter.im/AdventistOpenSourceGroup/Projector](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AdventistOpenSourceGroup/Projector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Criado para organizar e otimizar os trabalhos de operação audio visual durante cultos e reuniões.
 
 ## Objetivos
